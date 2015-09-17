@@ -17,5 +17,18 @@ public class Coords<T extends TwoD> {
     }
     
     
+    void showXY(Coords c){
+        System.out.println("coordinates x and y");
+        for(int i=0;i<c.coords.length;i++){
+            System.out.println(c.coords[i].x+" "+c.coords[i].y);
+                   }
+    }
+    
+    void showXYZ(Coords<? extends ThreeD> c){
+        System.out.println("coordinates x and y");
+        for(int i=0;i<c.coords.length;i++){
+            System.out.println(c.coords[i].x+" "+c.coords[i].y+" "+c.coords[i].z);
+                   }
+    }
     
 }

@@ -17,8 +17,15 @@ import java.util.logging.Logger;
 public class Main {
     public static void main(String[] args) {
           
+      //  Gen<Integer> iob = new Gen<Integer>(88);
+        Gen2<Integer> iob1 = new Gen2<Integer>(99);
+         // Gen2<String> strob = new Gen2<>("generic text");
+         // System.out.println(iob.getOb());
+          // System.out.println(iob1.getOb());
+           // System.out.println(strob.getOb());
         
-         
+        
+        /* 
         Gen<Integer> iob;
         Integer y = 9;
         iob=new Gen<>(y);
@@ -54,7 +61,7 @@ public class Main {
        str=(String) o1;
            System.out.println(str);
          v=(Integer) o1;
-  
+  */
         
         
         /*

@@ -11,15 +11,11 @@ package generics;
  */
 public class NewClass {
     public static void main(String[] args) {
-        String s1="aaa";
-         String s2="aaa";
-        C c=new C();  
-        B b=new C();
         
-        C c1=(C)b;
-          
-           
-         
-           
+            
+            int x=1;
+        System.out.println(x);
+        x=x;
+        System.out.println(x);
     }
 }

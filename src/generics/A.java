@@ -20,17 +20,7 @@ public class A {
         return x;
     }
    
-    void set(){
-        
-    }
     
-    void set(int x){
-        
-    }
-    
-     void set(double x){
-        
-    }
    
      
      void meth(){

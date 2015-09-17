@@ -13,10 +13,11 @@ package generics;
     T ob;
     Gen(T o){
        ob=o;
+      T t=getOb();
     }
 
      T getOb() {
-       
+         System.out.println("getob() og class Gen ");
         return ob;
     }
     
