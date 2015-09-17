@@ -17,7 +17,7 @@ public class JavaApplication5 {
     public static void main(String[] args) {
         // TODO code application logic here
         MyFrame frame = new MyFrame();
-        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);;;;;;
        
     }
 }
